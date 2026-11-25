@@ -1,4 +1,6 @@
 // The Funniest Honest Appliance Error — writes one original line to /output/entry.txt
+// The machine is a washing machine, speaking in its own flat error-code voice:
+// it confesses the fault (it ate a sock) and the joke lands on the surviving sock.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const LINE =
